@@ -36,7 +36,7 @@
  *
  */
 metadata {
-	definition (name: "GE/Jasco Z-Wave Plus Dimmer Switch XP", namespace: "workit247", author: "Chris Nussbaum/Eli Altman") {
+	definition (name: "GE/Jasco Z-Wave Plus Dimmer Switch XP", namespace: "workit247", author: "Eli Altman") {
 		capability "Actuator"
 		capability "Button"
 		capability "Configuration"
