@@ -17,7 +17,7 @@
  *
  *	Changelog:
  *
- *	0.18 (11/06/2019) - Add parameter 32 'defaultLevel' ("Default Brightness"
+ *  0.18 (11/06/2019) - Add parameter 32 'defaultLevel' ("Default Brightness"
  *  0.17 (11/05/2018) - Add additional versions of the GE Z-Wave Plus Wall Dimmer
  *  0.16 (08/03/2017) - Fix bug with status not getting updated when turned on/off from SmartThings
  *  0.15 (04/28/2017) - Fix bug with setting level to 100%
@@ -36,7 +36,7 @@
  *
  */
 metadata {
-	definition (name: "GE/Jasco Z-Wave Plus Dimmer Switch XP", namespace: "nuttytree", author: "Chris Nussbaum") {
+	definition (name: "GE/Jasco Z-Wave Plus Dimmer Switch XP", namespace: "workit247", author: "Chris Nussbaum/Eli Altman") {
 		capability "Actuator"
 		capability "Button"
 		capability "Configuration"
